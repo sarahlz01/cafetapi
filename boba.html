@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>cafe tapi - boba</title>
+  <link href="boba.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <audio loop autoplay volume = "0.5">
+    <source src = "sunshine.mp3" type = "audio/mp3">
+  </audio>
+  <div class = "instructions">
+    <h1>You are a boba-rista, start your journey!</h1>
+    <p class = "step1" id = "step1">1. Mix in Brown Sugar</p>
+    <p class = "step2" id = "step2">2. Add your Boba to the Cup</p>
+    <p class = "step3" id = "step3">3. Brew your Tea</p>
+    <p class = "step4" id = "step4">4. Add ice to the cup</p>
+    <p class = "step5" id = "step5">5. Put in the milk and sweetener</p>
+    <p class = "step6" id = "step6">6. Finally, cap your boba milk tea</p>
+  </div>
+  
+  
+  <h3 class = "clickmix" id = "click">Click to mix the boba!</h3>
+  <div class = "timer" id="timer"></div>
+  <button class = "butt" id = "butt" onclick = "fillCup()">Next</button>
+  <button class = "butt2" id = "butt2" onclick = "brewTea()">Next</button>
+  <button class = "butt3" id = "butt3" onclick = "addIce()">Next</button>
+  <button class = "butt4" id = "butt4" onclick ="milkSweet()">Next</button>
+  <button class = "butt5" id = "butt5" onclick ="cap()">Next</button>
+  <button class = "butt6" id = "butt6" onclick ="addCap()">add cap</button>
+  <a href = "https://project.sarahzhao01.repl.co/boba.html"><button class = "butt7" id = "butt7">restart</button></a>
+  <div>
+    <img class = "mix" id = "img" onclick = "changeImg()" src = "images/bobamix1.png">
+    <img class = "empty" id = "empty" src = "images/emptycup.png">
+    <img class = "spoon" id = "spoon" onclick = "releaseBoba()" src = "images/spoon.png">
+     <img class = "kettle" id = "kettle" onclick = "steam()" src = "images/kettle.png">
+    <img class = "teacup" id = "teacup" src = "images/teacup.png">
+    <img class = "icecubes" id = "icecubes" onclick = "ice()" src = "images/icecubes.png">
+    <img class = "milk" id = "milk" onclick = "milk()" src = "images/milk-carton.png">
+    <img class = "sugar" id = "sugar" onclick = "sugar()" src = "images/sugar.png">
+    <img class = "milkpour" id = "milkpour" onclick = "milkGone()" src = "images/pouring-milk.png">
+    <img class = "sugarpour" id = "sugarpour" onclick = "sugarGone()" src = "images/pouring-sugar.png">
+    <img class = "fullteacup" id = "fullteacup" src = "images/fullteacup.png">
+    <img class = "cap" id = "cap" src = "images/cap.png">
+    <img class = "teacupcap" id = "teacupcap" src = "images/teacupcap.png">
+  </div>
+
+  <script src = "boba.js"></script>
+  
+  <!--add boba to cup, brew tea, ice, milk, sugar/syrup (??), cap + straw-->
+</body>
+
+</html>

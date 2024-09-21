@@ -1,0 +1,274 @@
+body {
+  background-image: url("images/backgroundtest.png"); 
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  font-family: 'Gaegu', cursive;
+}
+
+.step1 {
+  font-weight: bold;
+}
+
+.timer {
+  position: absolute;
+  font-size: 20px;
+  top: 40%;
+  left: 60%;
+  padding: 10px;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+  display: none;
+}
+
+.teacupcap {
+  height: 440px;
+  width: 400px;
+  position: absolute;
+  top: 45%;
+  left: 54%;
+  display: none;
+  z-index: 1;
+}
+
+.teacup {
+  height: 440px;
+  width: 400px;
+  position: absolute;
+  top: 45%;
+  left: 54%;
+  display: none;
+  z-index: 1;
+}
+
+.icecubes {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  z-index: 2;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.spoon {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 33%;
+  left: 51%;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.kettle {
+  height: 440px;
+  width: 400px;
+  position: absolute;
+  top: 40%;
+  left: 54%;
+  display: none;
+}
+
+.empty {
+  height: 440px;
+  width: 400px;
+  position: absolute;
+  top: 40%;
+  left: 54%;
+  display: none;
+}
+
+.milk {
+  height: 220px;
+  width: 200px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  z-index: 2;
+  display: none;
+}
+
+.cap {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  left: 57%;
+  display: none;
+}
+
+.milkpour {
+  height: 370px;
+  width: 210px;
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  display: none;
+  z-index: 1;
+}
+
+.sugarpour {
+  height: 400px;
+  width: 200px;
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  z-index: 2;
+  display: none;
+}
+
+.sugar {
+  height: 250px;
+  width: 210px;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  z-index: 2;
+  display: none;
+}
+
+.butt6 {
+  position: absolute;
+  top: 35%;
+  left: 64%;
+  margin-top: 50px;
+  display: none;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
+
+.butt7 {
+  position: absolute;
+  top: 30%;
+  left: 64%;
+  margin-top: 50px;
+  display: none;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
+
+.butt5 {
+  position: absolute;
+  top: 35%;
+  left: 64%;
+  margin-top: 50px;
+  display: none;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
+
+.butt4 {
+  position: absolute;
+  top: 35%;
+  left: 64%;
+  margin-top: 30px;
+  display: none;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
+
+.butt3 {
+  position: absolute;
+  top: 38%;
+  left: 64%;
+  margin-top: 30px;
+  display: none;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
+
+.butt2 {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  margin-top: 30px;
+  display: none;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
+
+.butt {
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  display: none;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
+
+.drink {
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.mix {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+
+.clickmix {
+  font-size: 40px;
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  width: 400px;
+  font-family: 'Gaegu', cursive;
+  outline: 4px solid black;
+  background-color: #73BA9B;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 25px;
+  margin: 15px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #A2999E;
+  border: 30px solid #846A6A;
+  height: 800px;
+  width: 450px;
+  z-index: 1;
+  transition: 0.5s;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: 'Gaegu', cursive;
+}

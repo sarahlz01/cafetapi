@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Gaegu', cursive;
+  /*font-family: 'Gamja Flower', cursive;*/
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("images/Backgroundfinal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+  outline: 4px solid black;
+  background-color: #73BA9B;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+button {
+  font-size: 30px;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 2px solid black;
+}

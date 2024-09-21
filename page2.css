@@ -1,0 +1,27 @@
+body {
+  /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+  font-family: 'Gaegu', cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("images/tree.png");
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, repeat-x
+}
+
+h1 {
+  font-size: 50px;
+  outline: 4px solid black;
+  background-color: #73BA9B;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+button {
+  font-size: 30px;
+  margin: 10px;
+  font-family: 'Gaegu', cursive;
+  background-color: #73BA9B;
+  outline: 3px solid black;
+}
